@@ -97,6 +97,7 @@ border-top-right-radius: 1em;
   padding:  0 2em 2em;
   text-align: justify;
   font-size: 1.2em;
+  white-space: normal;
 }
 
 @media screen and (max-width: 768px) {
