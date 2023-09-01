@@ -20,7 +20,7 @@ footer a {
   text-decoration: none;
 }
 
-@media screen and (max-width: 430px) {
+@media screen and (max-width: 435px) {
   footer {
     flex-direction: column;
   }
