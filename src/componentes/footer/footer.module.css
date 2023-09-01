@@ -5,17 +5,23 @@ footer {
   color: #ffffff;
   font-weight: bolder;
   display: flex;
-justify-content: center;
+  justify-content: center;
   margin-top: 70px;
   background: #1a1432;
 }
-footer ul{
+footer ul {
   list-style: none;
   font-size: 20px;
   margin: 40px;
+  padding: 0;
 }
 
-footer a{
+footer a {
   text-decoration: none;
+}
 
+@media screen and (max-width: 430px) {
+  footer {
+    flex-direction: column;
+  }
 }

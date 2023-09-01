@@ -67,8 +67,8 @@ body {
 .search {
   width: 817px;
   height: 66px;
- position: relative;
- left: 600px;
+  position: relative;
+  /* left: 600px; */
 
   display: flex;
   /* justify-content: center; */
@@ -160,13 +160,23 @@ body {
   margin-top: 70px;
 }
 
-@media screen and (max-width: 600px) {
+.flexLogo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 770px) {
   .app {
     padding: 4rem 2rem;
   }
+
+  .flexLogo {
+    flex-direction: column;
+  }
   .search {
-    padding: 1rem 1.75rem;
-    width: 100%;
+    /* padding: 1rem 1.75rem; */
+    width: 80%;
   }
   .search input {
     font-size: 1rem;
@@ -185,11 +195,10 @@ body {
   }
   .container {
     margin-top: 2rem;
-
   }
   .containers {
     margin-top: 2rem;
-    width: 50%;
+    /* width: 50%; */
     height: 50%;
   }
   .movie {
@@ -199,6 +208,4 @@ body {
   .search {
     position: inherit;
   }
-
-
 }
