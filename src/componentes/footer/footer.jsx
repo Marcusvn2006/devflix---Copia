@@ -8,16 +8,30 @@ import "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js";
 
 const Footer = ({ children, link }) => {
   return (
-    <footer>
-      <p>
-        Feito com <ion-icon name="heart" /> por  <a href={link} target="_blank">
-          {children} 
-        </a>
-      </p>
-        <SocialLink icon={"logo-github"} href={"https://github.com/Marcusvn2006"} />
-        <SocialLink icon={"logo-linkedin"} href={"https://devlinks-react.vercel.app/"} />
-        <SocialLink icon={"logo-twitter"} href={"https://twitter.com/Marcusvn014"} />
-        <SocialLink icon={"logo-instagram"} href={"https://www.instagram.com/eo.mvn/"} />
+    <footer>  
+      <div>
+        <ul>
+        <a href="#"> <li>DEVFLIX</li></a>
+         <a href="#"> <li>Mvn</li></a>
+        <a href="#">  <li>2006-2023</li></a>
+        </ul>
+      </div>
+      <div>
+        {" "}
+        <ul>
+         <a href="#"> <li>Configuração</li></a>
+         <a href="#"> <li>Perfil</li></a>
+        <a href="#">  <li>notificação</li></a>
+        </ul>
+      </div>
+      <div>
+        {" "}
+        <ul>
+       <a href="#">  <li>Cartão pré-pago</li></a> 
+         <a href="#"><li>Impresa</li></a> 
+        <a href="#"><li>Termos de uso</li></a>
+        </ul>
+      </div>
     </footer>
   );
 };

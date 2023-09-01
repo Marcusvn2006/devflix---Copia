@@ -2,13 +2,20 @@ footer {
   text-align: center;
   font-size: 14px;
   padding: 24px;
-  color: #fff;
+  color: #ffffff;
   font-weight: bolder;
+  display: flex;
+justify-content: center;
+  margin-top: 70px;
+  background: #1a1432;
 }
-footer a {
+footer ul{
+  list-style: none;
+  font-size: 20px;
+  margin: 40px;
+}
+
+footer a{
   text-decoration: none;
-  color: #f9d3b4;
-}
-footer ion-icon{
-  color: rgb(230, 0, 0);
+
 }
