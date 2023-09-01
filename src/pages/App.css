@@ -67,7 +67,9 @@ body {
 .search {
   width: 817px;
   height: 66px;
-  margin: 0 300px;
+ position: relative;
+ left: 600px;
+
   display: flex;
   /* justify-content: center; */
   align-items: center;
@@ -174,7 +176,7 @@ body {
     height: 20px;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 460px) {
   .app {
     padding: 4rem 1rem;
   }
@@ -186,7 +188,7 @@ body {
 
   }
   .containers {
-    /* margin-top: 2rem; */
+    margin-top: 2rem;
     width: 50%;
     height: 50%;
   }
@@ -194,7 +196,9 @@ body {
     width: 100%;
     margin: 1rem;
   }
-  
+  .search {
+    position: inherit;
+  }
 
 
 }

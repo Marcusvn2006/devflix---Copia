@@ -53,6 +53,9 @@ const App = () => {
       <div className="logo">
         {/* Div para exibir o logo */} <img src={logo} alt="logo devflix" />
         {/* Exibe a imagem do logo importada */}
+      </div>
+     
+     
         <div className="search">
           {/* Div para a barra de pesquisa */}
           <input
@@ -75,8 +78,8 @@ const App = () => {
             onClick={() => searchMovies(searchTerm)}
           ></ion-icon>
           {/*Chama a função 'searchMovies' com o valor de 'searchTerm' quando a imagem é clicada */}
-        </div>
       </div>
+     
       {movies?.length > 0 && (
         <div className="flex">
           <div className="letrastl">
